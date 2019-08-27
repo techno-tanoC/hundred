@@ -6,5 +6,16 @@ edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[[bin]]
+name = "hundred"
+path = "src/main.rs"
+
+[[bin]]
+name = "scrape"
+path = "src/scrape.rs"
+
 [dependencies]
 regex = "*"
+reqwest = "*"
+scraper = "*"
+url = "*"
