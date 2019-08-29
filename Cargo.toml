@@ -14,6 +14,10 @@ path = "src/main.rs"
 name = "scrape"
 path = "src/scrape.rs"
 
+[[bin]]
+name = "filter"
+path = "src/filter.rs"
+
 [dependencies]
 regex = "*"
 reqwest = "*"
