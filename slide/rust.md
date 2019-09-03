@@ -165,3 +165,9 @@ Rustほとんど関係ないです
 
 ###### 参考: 5200Hzの音
 ###### https://www.youtube.com/watch?v=0LtOR66FM3E
+
+---
+
+リポジトリ
+
+https://github.com/techno-tanoC/hundred
