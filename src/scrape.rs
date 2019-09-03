@@ -62,12 +62,12 @@ fn print_titles(url: &str) {
 }
 
 fn main() {
-    // let links = decade_links();
-    // links.iter().for_each(|link| {
-    //     println!("{}", link);
-    //     scrape_pages(link);
-    // })
-    let links = scrape_pages("https://filmarks.com/list/year/1940s");
-    // let links = scrape_pages("https://filmarks.com/list/year/1910s/1912");
+    let links = decade_links();
+    links.iter().for_each(|link| {
+        println!("{}", link);
+        scrape_pages(link);
+    })
+    // scrape_pages("https://filmarks.com/list/year/1940s");
+    // scrape_pages("https://filmarks.com/list/year/1910s/1912");
     // println!("{:?}", links);
 }
